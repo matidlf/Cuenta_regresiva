@@ -8,9 +8,9 @@
     var segundos=0
     if (fecha>hoy)
     {
-        var diferencia=(fecha.getTime()-hoy.getTime())/1000 //Resta la fecha definida con la fecha de hoy
-        dias=Math.floor(diferencia/86400) //Divide la diferencia con 86400 segundos que son 3600 x 24 ,lo que da 24 hs
-        diferencia=diferencia-(86400*dias)
+        var diferencia=(fecha.getTime()-hoy.getTime())/1000 
+        dias=Math.floor(diferencia/86400) 
+        diferencia=diferencia-(86400*dias) 
         horas=Math.floor(diferencia/3600)
         diferencia=diferencia-(3600*horas)
         minutos=Math.floor(diferencia/60)
