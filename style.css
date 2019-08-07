@@ -1,0 +1,28 @@
+body {
+    background:#FF2D00;
+    color:#fff;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+#contenedor{
+    text-align:center;
+    font-size: 35px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 500px;
+    height: 490px;
+    margin-top: -245px;
+    margin-left: -225px;
+    overflow:hidden;
+}
+#footer {
+  text-align: center;
+  font-size: 20px;
+   position:absolute;
+   bottom:0;
+   width:500px;
+   height:100px;
+   background:#FF2D00;
+}
